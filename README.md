@@ -1,2 +1,0 @@
-# aspenoeld.github.io
-Portfolio
