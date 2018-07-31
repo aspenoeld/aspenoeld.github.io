@@ -88,7 +88,7 @@
 									</div>
 								</form>
 								<ul class="actions">
-									<li><input type="submit" value="Send Message" /></li>
+									<li><input type="submit" onclick="return clicked(); value="Send Message" /></li>
 								</ul>
 							</div>
 							<div class="col-4 col-12-small">
@@ -116,6 +116,9 @@
 			</footer>
 
 		<!-- Scripts -->
+			function clicked() {
+    				return confirm('clicked');
+				}
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.poptrox.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
